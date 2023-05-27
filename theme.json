@@ -83,12 +83,18 @@
 				"color": {
 					"background": "var:preset|color|primary",
 					"text": "var:preset|color|contrast"
+				},
+				"typography": {
+					"fontFamily": "var:preset|font-family|roboto"
 				}
 			},
 			"heading": {
 				"color": {
 					"background": "var:preset|color|tertiary",
 					"text": "#ffffff"
+				},
+				"typography": {
+					"fontFamily": "var:preset|font-family|roboto"
 				}
 			},
 			"link": {
@@ -99,8 +105,14 @@
 				},
 				"color": {
 					"text": "var:preset|color|secondary"
+				},
+				"typography": {
+					"fontFamily": "var:preset|font-family|roboto"
 				}
 			}
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|roboto"
 		}
 	},
 	"version": 2,
