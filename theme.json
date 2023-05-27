@@ -31,6 +31,36 @@
 			]
 		}
 	},
+	"styles": {
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var:preset|color|primary",
+					"text": "var:preset|color|contrast"
+				}
+			},
+			"heading": {
+				"color": {
+					"background": "var:preset|color|tertiary",
+					"text": "#ffffff"
+				}
+			},
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var:preset|color|tertiary"
+					}
+				},
+				"color": {
+					"text": "var:preset|color|secondary"
+				}
+			}
+		}
+	},
 	"version": 2,
 	"$schema": "https://schemas.wp.org/wp/6.2/theme.json"
 }
