@@ -29,6 +29,48 @@
 					"slug": "tertiary"
 				}
 			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/roboto_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/roboto_italic_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/roboto_normal_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/roboto_italic_700.ttf"
+							]
+						}
+					],
+					"fontFamily": "Roboto",
+					"slug": "roboto"
+				}
+			]
 		}
 	},
 	"styles": {
