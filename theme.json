@@ -1,7 +1,36 @@
 {
-    "$schema": "https://schemas.wp.org/wp/6.2/theme.json",
-    "version": 2,
-    "settings": {
-        "appearanceTools": true
-    }
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#16161d",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#ff0000",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#00ff00",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#0000ff",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			]
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json"
 }
