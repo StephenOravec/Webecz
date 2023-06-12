@@ -77,7 +77,7 @@
 		"blocks": {
 			"core/navigation": {
 				"spacing": {
-					"blockGap": "0"
+					"blockGap": "0px"
 				}
 			}
 		},
