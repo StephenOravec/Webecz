@@ -30,6 +30,10 @@
 				}
 			]
 		},
+		"layout": {
+			"contentSize": "920px",
+			"wideSize": "1200px"
+		},
 		"typography": {
 			"fontFamilies": [
 				{
