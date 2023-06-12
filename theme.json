@@ -74,6 +74,13 @@
 		}
 	},
 	"styles": {
+		"blocks": {
+			"core/navigation": {
+				"spacing": {
+					"blockGap": "0"
+				}
+			}
+		},
 		"color": {
 			"background": "var:preset|color|base",
 			"text": "var:preset|color|contrast"
@@ -109,6 +116,15 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|roboto"
 				}
+			}
+		},
+		"spacing": {
+			"blockGap": "0px",
+			"padding": {
+				"bottom": "0px",
+				"left": "0px",
+				"right": "0px",
+				"top": "0px"
 			}
 		},
 		"typography": {
