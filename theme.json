@@ -1,129 +1,7 @@
 {
 	"settings": {
 		"appearanceTools": true,
-		"blocks": {
-			"core/site-title": {
-				"appearanceTools": true,
-				"color": {
-					"background": true,
-					"custom": true,
-					"customDuotone": true,
-					"customGradient": true,
-					"defaultDuotone": true,
-					"defaultGradients": true,
-					"defaultPalette": true,
-					"duotone": [],
-					"gradients": [],
-					"palette": [
-						{
-							"color": "#16161d",
-							"name": "Base",
-							"slug": "base"
-						},
-						{
-							"color": "#ffffff",
-							"name": "Contrast",
-							"slug": "contrast"
-						},
-						{
-							"color": "#ff0000",
-							"name": "Primary",
-							"slug": "primary"
-						},
-						{
-							"color": "#00ff00",
-							"name": "Secondary",
-							"slug": "secondary"
-						},
-						{
-							"color": "#0000ff",
-							"name": "Tertiary",
-							"slug": "tertiary"
-						}
-					],
-					"text": true
-				},
-				"layout": {
-					"contentSize": false,
-					"wideSize": false
-				},
-				"shadow": {
-					"defaultPresets": true,
-					"presets": []
-				},
-				"spacing": {
-					"customSpacingSize": true,
-					"spacingScale": {
-						"increment": 1.5,
-						"mediumStep": 1.5,
-						"operator": "*",
-						"steps": 7,
-						"unit": "rem"
-					},
-					"spacingSizes": []
-				},
-				"typography": {
-					"customFontSize": true,
-					"dropCap": true,
-					"fontFamilies": [
-						{
-							"fontFace": [
-								{
-									"fontFamily": "Roboto",
-									"fontStyle": "normal",
-									"fontWeight": "400",
-									"src": [
-										"file:./assets/fonts/roboto_normal_400.ttf"
-									]
-								},
-								{
-									"fontFamily": "Roboto",
-									"fontStyle": "italic",
-									"fontWeight": "400",
-									"src": [
-										"file:./assets/fonts/roboto_italic_400.ttf"
-									]
-								},
-								{
-									"fontFamily": "Roboto",
-									"fontStyle": "normal",
-									"fontWeight": "700",
-									"src": [
-										"file:./assets/fonts/roboto_normal_700.ttf"
-									]
-								},
-								{
-									"fontFamily": "Roboto",
-									"fontStyle": "italic",
-									"fontWeight": "700",
-									"src": [
-										"file:./assets/fonts/roboto_italic_700.ttf"
-									]
-								}
-							],
-							"fontFamily": "Roboto",
-							"slug": "roboto"
-						}
-					],
-					"fontSizes": [],
-					"fontStyle": true,
-					"fontWeight": true,
-					"letterSpacing": true,
-					"textDecoration": true,
-					"textTransform": true
-				}
-			}
-		},
 		"color": {
-			"background": true,
-			"custom": true,
-			"customDuotone": true,
-			"customGradient": true,
-			"defaultDuotone": true,
-			"defaultGradients": true,
-			"defaultPalette": true,
-			"duotone": [],
-			"gradients": [],
 			"palette": [
 				{
 					"color": "#16161d",
@@ -150,31 +28,9 @@
 					"name": "Tertiary",
 					"slug": "tertiary"
 				}
-			],
-			"text": true
-		},
-		"layout": {
-			"contentSize": "100%",
-			"wideSize": "100%"
-		},
-		"shadow": {
-			"defaultPresets": true,
-			"presets": []
-		},
-		"spacing": {
-			"customSpacingSize": true,
-			"spacingScale": {
-				"increment": 1.5,
-				"mediumStep": 1.5,
-				"operator": "*",
-				"steps": 7,
-				"unit": "rem"
-			},
-			"spacingSizes": []
+			]
 		},
 		"typography": {
-			"customFontSize": true,
-			"dropCap": true,
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -214,110 +70,19 @@
 					"fontFamily": "Roboto",
 					"slug": "roboto"
 				}
-			],
-			"fontSizes": [],
-			"fontStyle": true,
-			"fontWeight": true,
-			"letterSpacing": true,
-			"textDecoration": true,
-			"textTransform": true
+			]
 		}
 	},
 	"styles": {
-		"blocks": {
-			"core/heading": {
-				"css": ""
-			},
-			"core/navigation": {
-				"spacing": {
-					"blockGap": "0px"
-				}
-			},
-			"core/post-title": {
-				"css": "text-decoration: none;"
-			},
-			"core/site-title": {
-				"color": {
-					"background": "var(--wp--preset--color--vivid-purple)",
-					"text": "var(--wp--preset--color--contrast)"
-				},
-				"css": "textDecoration: none",
-				"elements": {
-					"link": {
-						":hover": {
-							"color": {
-								"text": "var(--wp--preset--color--contrast)"
-							}
-						},
-						"color": {
-							"text": "var(--wp--preset--color--contrast)"
-						}
-					}
-				},
-				"spacing": {
-					"margin": {
-						"bottom": "0px",
-						"left": "0px",
-						"right": "0px",
-						"top": "0px"
-					},
-					"padding": {
-						"bottom": "0px",
-						"left": "0px",
-						"right": "0px",
-						"top": "0px"
-					}
-				},
-				"typography": {
-					"textTransform": "uppercase"
-				}
-			}
-		},
 		"color": {
 			"background": "var(--wp--preset--color--base)",
 			"text": "var(--wp--preset--color--contrast)"
 		},
 		"elements": {
-			"button": {
-				"color": {
-					"background": "var(--wp--preset--color--primary)",
-					"text": "var(--wp--preset--color--contrast)"
-				},
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--roboto)"
-				}
-			},
-			"heading": {
-				"color": {
-					"background": "var(--wp--preset--color--tertiary)",
-					"gradient": "linear-gradient(231deg,rgb(254,205,165) 0%,rgb(254,45,45) 47%,rgb(107,0,62) 100%)",
-					"text": "#040506"
-				},
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--roboto)"
-				}
-			},
 			"link": {
-				":hover": {
-					"color": {
-						"text": "var(--wp--preset--color--secondary)"
-					}
-				},
 				"color": {
 					"text": "var(--wp--preset--color--contrast)"
-				},
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--roboto)"
 				}
-			}
-		},
-		"spacing": {
-			"blockGap": "",
-			"padding": {
-				"bottom": "0vw",
-				"left": "0vw",
-				"right": "0vw",
-				"top": "0vw"
 			}
 		},
 		"typography": {
