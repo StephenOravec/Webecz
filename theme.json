@@ -9,7 +9,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#ffffff",
+					"color": "#f0f0f0",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
@@ -29,7 +29,7 @@
 					"slug": "tertiary"
 				},
 				{
-					"color": "#8191B3",
+					"color": "#991900",
 					"name": "Quaternary",
 					"slug": "quaternary"
 				}
@@ -79,6 +79,15 @@
 		}
 	},
 	"styles": {
+		"blocks": {
+			"core/post-date": {
+				"typography": {
+					"fontSize": "15px",
+					"fontStyle": "italic",
+					"fontWeight": "400"
+				}
+			}
+		},
 		"color": {
 			"background": "var(--wp--preset--color--base)",
 			"text": "var(--wp--preset--color--contrast)"
