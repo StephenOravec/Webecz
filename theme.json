@@ -27,6 +27,11 @@
 					"color": "#0000ff",
 					"name": "Tertiary",
 					"slug": "tertiary"
+				},
+				{
+					"color": "#8191B3",
+					"name": "Quaternary",
+					"slug": "quaternary"
 				}
 			]
 		},
